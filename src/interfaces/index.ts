@@ -1,8 +1,8 @@
-export interface Products {
-  products: Product[];
+export interface IProducts {
+  products: IProduct[];
 }
 
-export interface Product {
+export interface IProduct {
   goodCreditRating: boolean;
   dacRequired: boolean;
   popupPageNegativeRate: boolean;
@@ -93,11 +93,11 @@ export interface Bundesbank {
 }
 
 export interface Effective {
-  min: Max;
-  max: Max;
+  min: IRate;
+  max: IRate;
 }
 
-export interface Max {
+export interface IRate {
   interest: number;
   monthlyRate: number;
   totalLoanAmount: number;
