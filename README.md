@@ -11,4 +11,9 @@
 - React virtual
 - React 18.0.0
 
+Deployed application link
+
+[Click here](https://singular-chebakia-31ff1a.netlify.app/)
+
+
 *Thank you*
